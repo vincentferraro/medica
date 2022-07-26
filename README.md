@@ -12,10 +12,15 @@ EN//
 
 You can sign up or use login and password following: login: Vincent  mdp: Vincent
 
+!!
+!!!WARNING: During sign up, typing information false for security.
+!!
+
 FR//
 
 
+Vous pouvez vous inscrire si vous le souhaitez ou utiliser les identifiants de connexion suivants: login: Vincent  mdp: Vincent
 
-Vous pouvez vous inscrire si vous le souhaitez sinon, utiliser les identifiants de connexion suivants: login: Vincent  mdp: Vincent
-
-
+!!
+!!!ATTENTION: Lors de l'inscription, saisir fausse information pour des questions de sécurité
+!!
