@@ -1,0 +1,22 @@
+.container{
+    width: 1500px;
+}
+.choose-medecin{
+    width: 600px!important;
+}
+.btn-doctor{
+    height: 300px;
+}
+.calendar{
+    visibility: hidden;
+}
+.container-appointment{
+    height: 500px;
+}
+.choose-medecin {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-calendar.css">
+    <link rel="stylesheet" href="../css/style_appointment.css">
+    <link rel="stylesheet" href="../css/style_accueil.css">
+    <link rel="stylesheet" href="../css/style_vosRdv.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <title>Accueil</title>
+</head>
+<body>
+    <header class="information-user">
+        <div class="user-picture"><img src="../pictures/logo-profil.png" alt=""></div>
+        <div class="user-informations">
+            <div class="user-informations-display">
+                <p>Prénom:</p><p class="user-json">{Prénom}</p>
+                <p>Nom:</p><p class="user-json">{Nom}</p>
+                <p>Mail:</p><p class="user-json">{Mail}</p>
+                <p>Téléphone:</p><p class="user-json">{Téléphone}</p>
+            </div>
+        </div>
+        <div class="user-settings"><a href="../../index.html"><img src="../pictures/logout.png" alt=""></a></div>
+        
+    </header>
+    <main>
+        <nav>
+            <input id="vrdv" class="button-nav" type="button" value="Vos rendez-vous">
+            <input id="prdv" class="button-nav" type="button" value="Prendre rendez-vous">
+            <input id="cm" class="button-nav" type="button" value="Consulter médecin">
+        </nav>
+        
+        <section id="section" class="section-vosrdv">
+            
+        </section>
+    </main>
+    <script src="../js/script-acceuil.js"></script>
+    
+    
+    
+</body>
+</html>

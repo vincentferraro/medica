@@ -1,0 +1,53 @@
+.contain{
+    width: 1400px;
+    height: 550px;
+    color:#eee; 
+    display: flex;
+    flex-direction:column;
+    overflow: scroll;
+}
+.appointment{
+    width: 1500px;
+    height: 115px;
+    margin:16px 16px 0px 16px;
+    background-color: #FEFEFE;
+    border:1px solid #94CDAB;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px #94CDAB;
+    display: grid;
+    grid-template-columns: 300px 900px 300px;
+}
+
+.appointment img{
+    margin:auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    background:#000000;
+}
+.appointment ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.appointment ul li{
+    list-style-type: none;
+}
+.button-cancel{
+    margin:auto;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color:red;
+    text-decoration: underline;
+    background: #FEFEFE;
+    border:none;
+}
+.button-cancel:hover{
+    color:blue;
+}
+.button-cancel:active{
+    color:blue;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://localhost:8888/MEDICA/front/html/accueil.html -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Accueil_files/style-calendar.css">
+    <link rel="stylesheet" href="./Accueil_files/style_appointment.css">
+    <link rel="stylesheet" href="./Accueil_files/style_accueil.css">
+    <link rel="stylesheet" href="./Accueil_files/style_vosRdv.css">
+    <link rel="stylesheet" href="./Accueil_files/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
+    <title>Accueil</title>
+<script src="./Accueil_files/vosrdv_script.js" id="script_call2"></script><script src="./Accueil_files/consult_medecin.js" id="script_call3"></script></head>
+<body>
+    <header class="information-user">
+        <div class="user-picture"><img src="./Accueil_files/user-avatar-1.png" alt=""></div>
+        <div class="user-informations">
+            <div class="user-informations-display">
+                <p>Prénom:</p><p class="user-json">Kadi</p>
+                <p>Nom:</p><p class="user-json">Kadi</p>
+                <p>Mail:</p><p class="user-json">Kad@kad.com</p>
+                <p>Téléphone:</p><p class="user-json">33333</p>
+            </div>
+        </div>
+        <div class="user-settings"><a href="http://localhost:8888/MEDICA/front/html/accueil.html#"><i class="fas fa-cog"></i></a></div>
+        
+    </header>
+    <main>
+        <nav>
+            <input id="vrdv" class="button-nav" type="button" value="Vos rendez-vous">
+            <input id="prdv" class="button-nav" type="button" value="Prendre rendez-vous">
+            <input id="cm" class="button-nav" type="button" value="Consulter médecin">
+        </nav>
+        
+        <section id="section" class="section-consulter-medecin">
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="../css/style_appointment.css">-->
+    <link rel="stylesheet" href="./Accueil_files/style-calendar.css">
+    <link rel="stylesheet" href="./Accueil_files/style_consultMedecin.css">
+    <title>Consultation médecin</title>
+
+
+    <div class="container">
+        <div class="choose-medecin" style="width:500px;">
+            <p>Visualiser planning:</p>
+            <input id="1" class="btn-doctor activated" type="button" value="Dr Mabhoul">
+            <input id="2" class="btn-doctor" type="button" value="Dr House">
+            <input id="3" class="btn-doctor" type="button" value="Dr Greys">
+            <input id="4" class="btn-doctor" type="button" value="Dr Norbert">
+        </div>
+        <div class="calendar" style="visibility: visible;">
+            <div class="month">
+                <i class="fas fa-angle-left prev"></i>
+                <div class="date">
+                    <h1>Février 22</h1>
+                    <p>Mardi 15 Février 2022</p>
+                </div>
+                <i class="fas fa-angle-right next"></i>
+            </div>
+            <div class="weekdays">
+                <div>Dim</div>
+                <div>Lun</div>
+                <div>Mar</div>
+                <div>Mer</div>
+                <div>Jeu</div>
+                <div>Ven</div>
+                <div>Sam</div>
+            </div>
+            <div class="days"><div class="prev-date">30</div><div class="prev-date">31</div><div class="date-current-month">1</div><div class="date-current-month">2</div><div class="date-current-month">3</div><div class="date-current-month">4</div><div class="date-current-month">5</div><div class="date-current-month">6</div><div class="date-current-month">7</div><div class="date-current-month">8</div><div class="date-current-month">9</div><div class="date-current-month today">10</div><div class="date-current-month">11</div><div class="date-current-month">12</div><div class="date-current-month">13</div><div class="date-current-month">14</div><div class="date-current-month activated">15</div><div class="date-current-month">16</div><div class="date-current-month">17</div><div class="date-current-month">18</div><div class="date-current-month">19</div><div class="date-current-month">20</div><div class="date-current-month">21</div><div class="date-current-month">22</div><div class="date-current-month">23</div><div class="date-current-month">24</div><div class="date-current-month">25</div><div class="date-current-month">26</div><div class="date-current-month">27</div><div class="date-current-month">28</div><div class="next-date">1</div><div class="next-date">2</div><div class="next-date">3</div><div class="next-date">4</div><div class="next-date">5</div></div>
+        </div>
+    <div class="container-appointment">
+        <p>Horaires disponibles:</p>
+        <div class="container-hour-appointment" style="visibility: visible;">
+            <input class="btn-appointment" type="button" value="9:00">
+            <input class="btn-appointment" type="button" value="9:30">
+            <input class="btn-appointment" type="button" value="10:00">
+            <input class="btn-appointment" type="button" value="10:30">
+            <input class="btn-appointment" type="button" value="11:00">
+            <input class="btn-appointment" type="button" value="11:30">
+            <input class="btn-appointment" type="button" value="12:00">
+            <input class="btn-appointment" type="button" value="12:30">
+            <input class="btn-appointment" type="button" value="13:00">
+            <input class="btn-appointment" type="button" value="13:30">
+            <input class="btn-appointment" type="button" value="14:00">
+            <input class="btn-appointment" type="button" value="14:30">
+            <input class="btn-appointment" type="button" value="15:00">
+            <input class="btn-appointment" type="button" value="15:30">
+            <input class="btn-appointment" type="button" value="16:00">
+            <input class="btn-appointment" type="button" value="16:30">
+            <input class="btn-appointment" type="button" value="17:00">
+            <input class="btn-appointment" type="button" value="17:30">
+            <input class="btn-appointment" type="button" value="18:00">
+        </div>
+    </div>
+</div>
+    <script src="./Accueil_files/consult_medecin.js"></script>
+
+</section>
+    </main>
+    <script src="./Accueil_files/script-acceuil.js"></script>
+    
+    
+    
+
+<div id="new-tab-sidebar" class="hidden"><div class="wrap">
+        <img class="new-tab-logo" src="chrome-extension://meffljleomgifbbcffejnmhjagncfpbd/img/128x128.png">
+        
+    <ul></ul></div></div></body></html>

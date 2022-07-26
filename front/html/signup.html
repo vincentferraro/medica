@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style_signup.css">
+    <title>Medica - Inscription</title>
+</head>
+<body>
+<form id="form-signup" method="post" action="../../back/signupBDD.php">
+    <label for="nom">Nom*</label>
+    <input class="field"id="nom" name="nom" type="text">
+    <label for="prenom">Prénom*</label>
+    <input class="field" id="prenom" name="prenom" type="text">
+    <label for="mail">Adresse mail*</label>
+    <input class="field" id="mail"name="mail" type="text">
+    <label for="telephone">Telephone*</label>
+    <input class="field" id="telephone" name="telephone" type="text">
+    <label for="login">Identifiant*</label>
+    <input class="field" id="login" name="login" type="text">
+    <label for="pass">Mot de passe*</label>
+    <input class="field" id="pass" name="pass" type="text">
+    
+    <input id="btn-submit" class="btn-valid" type="button" value="Valider">
+    <a href="../../index.html"><input class="btn-cancel" type="button" value="Annuler"></a>
+    
+    
+</form>
+
+<p>* obligatoire</p>
+<div id="warning-message"class="warning"></div>
+    <script src="../js/script_signup.js"></script>
+</body>
+</html>

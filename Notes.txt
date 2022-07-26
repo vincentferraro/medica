@@ -1,0 +1,82 @@
+Le 22 Decembre:
+    -Ajout du calendrier, horaire de rendez-vous, boutons docteur et validation.
+    -Codage css des éléments cité précédemment.
+    -Ajout fonction date cliquée sur calendrier
+    A faire: Terminer fonction pour indiquer la date cliquée sur "p".
+
+Le 24 Décembre: 
+    -Ajout présentaiton RDV
+    A faire: Commencer partie BACK pour suite des foncitonnalités
+
+11 Janvier 2021:
+    -Création de la BDD sur phpMyAdmin 
+    -Création des pages bdd_connect.php et bdd_register.php
+    A faire: Récupérer les information d'enregistrement patient (nom, prenom, mail, telephone)
+
+15 Janvier
+    -Création signupBDD.php
+    -link entre signupBDD.php et signup.html 
+    -Code d'enregistrement d'information dans la BDD fonctionnel
+    A faire: Vérifier si mail et login n'est pas enregistrer sur la BDD avant nouvelle insertion dans la table
+    JSON_encoder pour la réponse en AJAX
+
+-17 Janvier:
+    -Terminé signupBDD.php, enregistrement possible avec vérification si compte inexistant
+    -En cours: connexion signIN.php, comprendre fonctionnement fetch assoc.
+
+-18 Janvier:
+    -Terminé: Connexion signIN.php
+    -Suivi page signIn.php to Accueil.html
+    -Création fichier JSON sur accueilBDD.php pour le récupérer via script-accueil.js pour afficher information User lors de l'aterrissage sur page Accueil.html
+    -Création fichier script-accueil.js pour gérer les requêtes AJAX
+    -Gestion d'évènement 'click' sur boutons 'Vos RDV', 'Prendre RDV', 'Consulter Médecin'
+    A faire: Adapter les fichier html appelé à accueil.html, modifier le css. Voir pour regrouper les fichiers css?
+                Coder bouton consulterMédecin.
+-19 Janvier:
+    -Modification des fichiers style_accueil.css, style_appointment.css: redéfinition des régles CSS, % to px.
+    -Modification des propriétés CSS calendar.
+    A faire: Ajuster les régles CSS pour que le fichier appointment.html s'affiche bien lorsqu'il est appelé.
+
+-25 Janvier:
+    -Ajout page consultation_medecin.html
+    -Modification du calendrier
+    -Ajout input "text" dans page appointment.html
+    A faire: Ajuster les chargements des scripts et des boutons lors des clicks.
+
+-27 Janvier:
+    -Ajustement chargement des éléments lors du changement de fichiers html
+    -Mofication sur les éléments appointment dans vordv.html
+    A faire: afficher les date sur le calendrier lors de clique.
+
+-31 Janvier:
+    -fonction vérifie champ libre ou non sur signup.html
+    A faire:créer requete AJAX
+-1 Février:
+    -Révision fonction d'identification et inscription AJAX sur page signin.html et signup.html
+    -Vérification des caractères des champs.
+    -A faire: renvoyer vers signin.html à la validation de l'inscription. Afficher information
+                sur la page accueil.html et vérifier script du calendrier.
+-8 Février:
+    -OK information accueil.
+    -Fonctionnalité pour afficher les RDV sur la page vosRDV.html
+    -Réajustement du calendrier pour afficher les jours et les bonnes dates.
+    -Affichage des heures de rendez après choix du calendrier.
+    A faire: Terminer le choix et affichage rendez ainsi que requete SQL pour afficher dispo docteurs.
+
+-9 Février:
+    -Réglage choix date calendrier, affichage des plages horaires,
+    -Vérification validation date et horaire
+    -Affichage des docteurs disponible via requête AJAX
+
+-10 Février:
+    -Rectification problème cache MAMP (commenter sur init.php OPCache)
+    -fonctionnalité enregistrement RDV OK
+    -Raffraichissement script après inscription RDV
+    -Affichage des rendez vous après clique bouton "mise à jour"
+    -Fonctionnalité "Annuler RDV" opérationnelle
+    -Fonctionnalité consultation Médecin
+    -Attribution Logos aux médecin,
+    -Amélioration inscription
+    -Retour page login après inscription
+    -A faire: Rectifier lors d'une connexion sans login et mot de passe
+    -A faire: Déploiement

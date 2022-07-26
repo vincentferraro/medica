@@ -1,0 +1,127 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    height: 100vh;
+    background:#C6E5D3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#8F9294;
+    font-size: 20px;
+}
+
+header{
+    margin-top: 16px;
+    width: 1600px;
+    height: 105px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #94CDAB;
+    display: grid;
+    grid-template-columns: 400px 900px 300px;
+    grid-template-rows: 105px;
+}
+.user-picture{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.user-picture img{
+    width: 100px;
+    height: 100px;
+    background-color: #EBF4EF;
+    border-radius: 50px;
+    margin:auto
+}
+.user-informations{
+    width: 900px;
+    height: 105px;
+}
+.user-informations-display{
+    padding: auto;
+    display: grid;
+    grid-template-columns: 110px 300px  110px  300px;
+    grid-template-rows:32px 32px;
+    width: 900px;
+    height: 105px;
+    padding-top:22px;
+    padding-bottom: 22px
+}
+.user-settings{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.user-settings img{
+    height: 30px;
+    width: 30px;
+}
+.fas{
+  transform: scale(2.5);
+  color:#8F9294;
+}
+main{
+    width: 1600px;
+    height: 800px;
+    background-color: #FEFEFE;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #94CDAB;
+    margin:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    width: 1568px;
+    height: 170px;
+    margin:16px 16px 0px 16px;
+    background-color: #EBF4EE;
+    border-radius: 10px;
+    border: 1px solid #94CDAB;
+    box-shadow: 5px 5px 5px #94CDAB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.button-nav{
+    height: 50px;
+    width: 300px;
+    padding:16px;
+    font-size: 20px;
+    background-color: #FEFEFE;
+    border:1px solid #94CDAB;
+    border-radius: 10px;
+    color:#8F9294;
+}
+.button-nav:active{
+    background-color:#A3E3BD;
+    opacity: 0.8;
+}
+.button-nav:hover{
+    background-color: #A3E3BD;
+    opacity: 0.8;
+}
+
+section{
+    width: 1568px;
+    height: 600px;
+    margin:16px;
+    padding:16px;
+    background-color: #EBF4EE;
+    box-shadow: 5px 5px 5px #94CDAB;
+    border:1px solid #94CDAB;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+}

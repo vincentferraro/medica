@@ -1,0 +1,137 @@
+
+.container{
+    width: 1400px;
+    height: 550px;
+    color:#eee; 
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+}
+
+.container-appointment{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height:200px;
+    margin-top:0px;
+}
+
+.container-appointment p{
+    color:#8F9294;
+    font-size: 1.5rem;
+    margin:1%;
+}
+.container-hour-appointment{
+    width: 800px;
+    height: 400px;
+    margin:5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+    visibility: hidden;
+}
+.doctor-available{
+    width: 800px;
+    margin:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    visibility: hidden;
+}
+.motif-rdv{
+    width: 800px;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    visibility: hidden;
+}
+
+#input-text{
+    display: block;
+    padding:1%;
+    width: 300px;
+    height: 100px;
+    border:1px solid #94CDAB;
+    border-radius: 10px;
+}
+.confirm-appointment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin:1%;
+    visibility: hidden;
+}
+
+
+/*input[type="button"]{
+    height: 90%;
+    width: 80%;
+    background-color: #FEFEFE;
+    border:1px solid #94CDAB;
+    border-radius: 10px;
+    color:#8F9294;
+    transition:background-color 0.2s;
+}
+
+input[type="button"]:hover{
+    color:#eee;
+    background-color: #157E56;
+}*/
+
+.btn-appointment{
+    height: 90%;
+    width: 80%;
+    background-color: #FEFEFE;
+    border:1px solid #94CDAB;
+    border-radius: 10px;
+    color:#8F9294;
+    transition:background-color 0.2s;
+}
+.btn-appointment:hover{
+    color:#eee;
+    background-color: #157E56;
+}
+
+.btn-doctor{
+    height: 90%;
+    width: 80%;
+    background-color: #FEFEFE;
+    border:1px solid #94CDAB;
+    border-radius: 10px;
+    color:#8F9294;
+    transition:background-color 0.2s;
+    margin:1%;
+}
+.btn-doctor:hover{
+    color:#eee;
+    background-color: #157E56;
+}
+#btn-confirm{
+    height: 90%;
+    width: 80%;
+    background-color: #FEFEFE;
+    border:1px solid #94CDAB;
+    border-radius: 10px;
+    color:#8F9294;
+    transition:background-color 0.2s;
+    margin:1%;
+}
+#btn-confirm:hover{
+    color:#eee;
+    background-color: #157E56;
+}
+.choose-medecin{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-activated{
+    color:#eee;
+    background-color: #157E56;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="front/css/style_signup.css" type="text/css">
+    <title>Medica - Accueil</title>
+</head>
+<body>
+    <img src="front/pictures/medica_logo.png" alt="">
+    <form id="form-signin" method="post" action="http://localhost:8888/MEDICA/back/signIN.php">
+        <label for="login">Identifiant:</label>
+        <input id="login" name="login" type="text">
+        <label for="pass">Mot de passe:</label>
+        <input id="pass"name="pass" type="password">
+        <div>
+            <input id="btn-valid" class="btn-valid" type="button" value="Connexion">
+            <a href="front/html/signup.html"><input class="btn-cancel" type="button" Value="S'inscrire"></a>
+        </div>
+    </form>
+    <div id="warning-message"class="warning"></div>
+
+    <script src="front/js/script_signin.js"></script>
+
+</body>
+</html>
